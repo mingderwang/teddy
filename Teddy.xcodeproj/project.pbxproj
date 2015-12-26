@@ -14,6 +14,16 @@
 		28E024161C2EC740004D0529 /* Teddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28E024141C2EC740004D0529 /* Teddy.xcdatamodeld */; };
 		28E024181C2EC740004D0529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E024171C2EC740004D0529 /* Assets.xcassets */; };
 		28E0241B1C2EC740004D0529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E024191C2EC740004D0529 /* LaunchScreen.storyboard */; };
+		28E024231C2EC8B5004D0529 /* one.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E024221C2EC8B5004D0529 /* one.png */; };
+		28E024251C2EC8BA004D0529 /* Two (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28E024241C2EC8BA004D0529 /* Two (1).jpg */; };
+		28E024271C2EC8BE004D0529 /* three (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 28E024261C2EC8BE004D0529 /* three (1).png */; };
+		28E0242A1C2EC8C8004D0529 /* four (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 28E024281C2EC8C8004D0529 /* four (1).png */; };
+		28E0242B1C2EC8C8004D0529 /* five (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 28E024291C2EC8C8004D0529 /* five (1).png */; };
+		28E0242D1C2EC8CC004D0529 /* How old are you (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28E0242C1C2EC8CC004D0529 /* How old are you (1).jpg */; };
+		28E0242F1C2EC8D2004D0529 /* whats your name.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28E0242E1C2EC8D2004D0529 /* whats your name.jpg */; };
+		28E024311C2EC8D6004D0529 /* what's your favorite food (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 28E024301C2EC8D6004D0529 /* what's your favorite food (1).png */; };
+		28E024331C2EC94D004D0529 /* 123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28E024321C2EC94D004D0529 /* 123.jpg */; };
+		28E024351C2ECA17004D0529 /* muppet-alphabet-final-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 28E024341C2ECA17004D0529 /* muppet-alphabet-final-2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +38,16 @@
 		28E024171C2EC740004D0529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28E0241A1C2EC740004D0529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28E0241C1C2EC740004D0529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E024221C2EC8B5004D0529 /* one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = one.png; sourceTree = "<group>"; };
+		28E024241C2EC8BA004D0529 /* Two (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Two (1).jpg"; sourceTree = "<group>"; };
+		28E024261C2EC8BE004D0529 /* three (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "three (1).png"; sourceTree = "<group>"; };
+		28E024281C2EC8C8004D0529 /* four (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "four (1).png"; sourceTree = "<group>"; };
+		28E024291C2EC8C8004D0529 /* five (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "five (1).png"; sourceTree = "<group>"; };
+		28E0242C1C2EC8CC004D0529 /* How old are you (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "How old are you (1).jpg"; sourceTree = "<group>"; };
+		28E0242E1C2EC8D2004D0529 /* whats your name.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "whats your name.jpg"; sourceTree = "<group>"; };
+		28E024301C2EC8D6004D0529 /* what's your favorite food (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "what's your favorite food (1).png"; sourceTree = "<group>"; };
+		28E024321C2EC94D004D0529 /* 123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 123.jpg; sourceTree = "<group>"; };
+		28E024341C2ECA17004D0529 /* muppet-alphabet-final-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "muppet-alphabet-final-2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,16 @@
 		28E024071C2EC73F004D0529 /* Teddy */ = {
 			isa = PBXGroup;
 			children = (
+				28E024221C2EC8B5004D0529 /* one.png */,
+				28E024241C2EC8BA004D0529 /* Two (1).jpg */,
+				28E024261C2EC8BE004D0529 /* three (1).png */,
+				28E024281C2EC8C8004D0529 /* four (1).png */,
+				28E024291C2EC8C8004D0529 /* five (1).png */,
+				28E0242C1C2EC8CC004D0529 /* How old are you (1).jpg */,
+				28E0242E1C2EC8D2004D0529 /* whats your name.jpg */,
+				28E024301C2EC8D6004D0529 /* what's your favorite food (1).png */,
+				28E024321C2EC94D004D0529 /* 123.jpg */,
+				28E024341C2ECA17004D0529 /* muppet-alphabet-final-2.png */,
 				28E0240B1C2EC73F004D0529 /* AppDelegate.h */,
 				28E0240C1C2EC73F004D0529 /* AppDelegate.m */,
 				28E0240E1C2EC73F004D0529 /* ViewController.h */,
@@ -139,8 +169,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28E024331C2EC94D004D0529 /* 123.jpg in Resources */,
+				28E024311C2EC8D6004D0529 /* what's your favorite food (1).png in Resources */,
+				28E024271C2EC8BE004D0529 /* three (1).png in Resources */,
+				28E024251C2EC8BA004D0529 /* Two (1).jpg in Resources */,
+				28E0242D1C2EC8CC004D0529 /* How old are you (1).jpg in Resources */,
+				28E024231C2EC8B5004D0529 /* one.png in Resources */,
+				28E0242B1C2EC8C8004D0529 /* five (1).png in Resources */,
+				28E0242F1C2EC8D2004D0529 /* whats your name.jpg in Resources */,
+				28E0242A1C2EC8C8004D0529 /* four (1).png in Resources */,
 				28E0241B1C2EC740004D0529 /* LaunchScreen.storyboard in Resources */,
 				28E024181C2EC740004D0529 /* Assets.xcassets in Resources */,
+				28E024351C2ECA17004D0529 /* muppet-alphabet-final-2.png in Resources */,
 				28E024131C2EC740004D0529 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
