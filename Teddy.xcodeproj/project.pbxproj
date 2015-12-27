@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28903E071C2F918500943B71 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28903E061C2F918500943B71 /* AVFoundation.framework */; };
+		28903E091C2F91C600943B71 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28903E081C2F91C600943B71 /* MediaPlayer.framework */; };
+		28903E0B1C2F91D700943B71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28903E0A1C2F91D700943B71 /* UIKit.framework */; };
+		28903E0D1C2F91F500943B71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28903E0C1C2F91F500943B71 /* Foundation.framework */; };
+		28903E0F1C2F920400943B71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28903E0E1C2F920400943B71 /* CoreGraphics.framework */; };
+		28903E111C2F920C00943B71 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28903E101C2F920C00943B71 /* AudioToolbox.framework */; };
+		28903E161C2FA07C00943B71 /* ComAirAPI_V1.0.5.h in Sources */ = {isa = PBXBuildFile; fileRef = 28903E151C2FA07C00943B71 /* ComAirAPI_V1.0.5.h */; };
+		28903E201C2FAFC600943B71 /* libComAirLibrary_V1.0.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28903E1F1C2FAFC600943B71 /* libComAirLibrary_V1.0.5.a */; };
 		28E0240A1C2EC73F004D0529 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E024091C2EC73F004D0529 /* main.m */; };
 		28E0240D1C2EC73F004D0529 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0240C1C2EC73F004D0529 /* AppDelegate.m */; };
 		28E024101C2EC73F004D0529 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0240F1C2EC73F004D0529 /* ViewController.m */; };
@@ -27,6 +35,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28903E061C2F918500943B71 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		28903E081C2F91C600943B71 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		28903E0A1C2F91D700943B71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28903E0C1C2F91F500943B71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28903E0E1C2F920400943B71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28903E101C2F920C00943B71 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		28903E151C2FA07C00943B71 /* ComAirAPI_V1.0.5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ComAirAPI_V1.0.5.h; path = Include/ComAirAPI_V1.0.5.h; sourceTree = "<group>"; };
+		28903E1F1C2FAFC600943B71 /* libComAirLibrary_V1.0.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libComAirLibrary_V1.0.5.a; path = Lib/libComAirLibrary_V1.0.5.a; sourceTree = SOURCE_ROOT; };
 		28E024051C2EC73F004D0529 /* Teddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E024091C2EC73F004D0529 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28E0240B1C2EC73F004D0529 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,16 +71,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28903E201C2FAFC600943B71 /* libComAirLibrary_V1.0.5.a in Frameworks */,
+				28903E111C2F920C00943B71 /* AudioToolbox.framework in Frameworks */,
+				28903E0F1C2F920400943B71 /* CoreGraphics.framework in Frameworks */,
+				28903E0D1C2F91F500943B71 /* Foundation.framework in Frameworks */,
+				28903E0B1C2F91D700943B71 /* UIKit.framework in Frameworks */,
+				28903E091C2F91C600943B71 /* MediaPlayer.framework in Frameworks */,
+				28903E071C2F918500943B71 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28903E051C2F8FE600943B71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28903E1F1C2FAFC600943B71 /* libComAirLibrary_V1.0.5.a */,
+				28903E101C2F920C00943B71 /* AudioToolbox.framework */,
+				28903E0E1C2F920400943B71 /* CoreGraphics.framework */,
+				28903E0C1C2F91F500943B71 /* Foundation.framework */,
+				28903E0A1C2F91D700943B71 /* UIKit.framework */,
+				28903E081C2F91C600943B71 /* MediaPlayer.framework */,
+				28903E061C2F918500943B71 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			path = Teddy;
+			sourceTree = "<group>";
+		};
 		28E023FC1C2EC73F004D0529 = {
 			isa = PBXGroup;
 			children = (
+				28903E151C2FA07C00943B71 /* ComAirAPI_V1.0.5.h */,
 				28E024071C2EC73F004D0529 /* Teddy */,
+				28903E051C2F8FE600943B71 /* Frameworks */,
 				28E024061C2EC73F004D0529 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,6 +183,7 @@
 				TargetAttributes = {
 					28E024041C2EC73F004D0529 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = X98G9M9FSP;
 					};
 				};
 			};
@@ -192,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28903E161C2FA07C00943B71 /* ComAirAPI_V1.0.5.h in Sources */,
 				28E024161C2EC740004D0529 /* Teddy.xcdatamodeld in Sources */,
 				28E024101C2EC73F004D0529 /* ViewController.m in Sources */,
 				28E0240D1C2EC73F004D0529 /* AppDelegate.m in Sources */,
@@ -306,22 +348,52 @@
 		28E024201C2EC740004D0529 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/include";
 				INFOPLIST_FILE = Teddy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = teddy.Teddy;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(PROJECT_DIR)/Lib/**",
+					"$(PROJECT_DIR)/Lib",
+				);
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = ming.teddy.Teddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
 		28E024211C2EC740004D0529 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/include";
 				INFOPLIST_FILE = Teddy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = teddy.Teddy;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(PROJECT_DIR)/Lib/**",
+					"$(PROJECT_DIR)/Lib",
+				);
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = ming.teddy.Teddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -344,6 +416,7 @@
 				28E024211C2EC740004D0529 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

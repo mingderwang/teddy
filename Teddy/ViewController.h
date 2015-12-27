@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface ViewController : UIViewController
+#define MAXTHRESHOLD	128
 
+@interface ViewController : UIViewController{
+    int								m_i32Threshold;
+    AVAudioPlayer					*m_audioPlayer;
+}
+
+-(bool)		PlayNumber:(int)Number;
 
 @end
 
